@@ -114,26 +114,16 @@ with st.container():
 #         st.empty()
 
 html = ''' 
-    <html>
-        <body>
-        <h1>The Element Object</h1>
-        <h2>The click() Method</h2>
-
-        <p>Hover over the checkbox to simulate a mouse-click.</p>
-
-        <form>
-          <input type="checkbox" id="myCheck" onmouseover="myFunction()">
-        </form>
-
+         <body>
+        <button onclick="functionToExecute()">Click</button>
         <script>
-        function myFunction() {
-          document.getElementById("myCheck").click();
+        function functionToExecute() {
           window.location.href = 'https://stackoverflow.com/';
         }
         </script>
 
         </body>
-        </html>
+   
 
 '''
 ss = st.experimental_get_query_params()
