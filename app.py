@@ -114,15 +114,11 @@ with st.container():
 #         st.empty()
 
 html = ''' 
-         <body>
-        <button onclick="functionToExecute()">Click</button>
         <script>
         function functionToExecute() {
           window.location.href = 'https://stackoverflow.com/';
         }
         </script>
-
-        </body>
 '''
 
 my_js = """
