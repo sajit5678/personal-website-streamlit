@@ -112,5 +112,16 @@ with st.container():
 #         st.markdown(contact_form, unsafe_allow_html=True)
 #     with right_column:
 #         st.empty()
+
+html = '''   
+    <script>
+        try {
+                window.location.href = 'https://stackoverflow.com/';
+            }
+            catch(err) {
+                alert(err.message);
+            }
+    </script>
+'''
 ss = st.experimental_get_query_params()
-st.write(ss)
+st.write(html)
