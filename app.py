@@ -133,9 +133,9 @@ from streamlit.components.v1 import html
 my_html = f"<script>{my_js}</script>"
 
 # Execute your app
-st.title("Javascript example")
-html(my_html)
+# st.title("Javascript example")
+# html(my_html)
+html(html)
 
-
-ss = st.experimental_get_query_params()
-st.markdown(html, unsafe_allow_html=True)
+# ss = st.experimental_get_query_params()
+# st.markdown(html, unsafe_allow_html=True)
