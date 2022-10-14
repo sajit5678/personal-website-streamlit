@@ -125,7 +125,7 @@ my_js = """
 alert("Hola mundo");
 """
 my_js1 = """
-window.location.href = 'https://www.w3schools.com/jsref/met_html_click.asp';
+window.location.href = ''intent:https://assets-1.mypowerdisk.com/disk/upload/prod/11010859934/67058fd3bb4d4dbe899539549c89348d.mp4#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;b.decode_mode=2;S.mx_stream_url=https%3A//assets-1.mypowerdisk.com/disk/upload/prod/11010859934/67058fd3bb4d4dbe899539549c89348d.mp4;S.download_url=https%3A//assets-1.mypowerdisk.com/disk/upload/prod/11010859934/67058fd3bb4d4dbe899539549c89348d.mp4;S.id=c21aab6266a7e26ddb7acae2dcec5f2df040baf0840f;S.title=beautiful-Mizoram-girl.mp4;l.total_size=19440649;S.tr_parameter=%7B%22fromuser%22%3A%225318313663%22%2C%20%22video%22%3A%22c21aab6266a7e26ddb7acae2dcec5f2df040baf0840f%22%2C%20%22source%22%3A%22telegram-api%22%2C%20%22duration%22%3A245%2C%20%22domain%22%3A%22assets-1.mypowerdisk.com%22%2C%20%22ad_action%22%3A0%7D;end'';
 """
 from streamlit.components.v1 import html
 # Wrapt the javascript as html code
