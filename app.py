@@ -112,3 +112,4 @@ with st.container():
 #         st.markdown(contact_form, unsafe_allow_html=True)
 #     with right_column:
 #         st.empty()
+st.experimental_get_query_params()
