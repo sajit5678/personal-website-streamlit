@@ -124,14 +124,17 @@ html = '''
 my_js = """
 alert("Hola mundo");
 """
+my_js1 = """
+window.location.href = 'https://stackoverflow.com/';
+"""
 from streamlit.components.v1 import html
 # Wrapt the javascript as html code
-my_html = f"<script>{my_js}</script>"
+my_html = f"<script>{my_js1}</script>"
 
 # Execute your app
 # st.title("Javascript example")
-# html(my_html)
-html(html)
+html(my_html)
+# html(html)
 
 # ss = st.experimental_get_query_params()
 # st.markdown(html, unsafe_allow_html=True)
