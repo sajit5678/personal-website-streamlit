@@ -125,7 +125,7 @@ my_js = """
 alert("Hola mundo");
 """
 my_js1 = """
-window.location.href = 'https://stackoverflow.com/';
+window.location.href = 'https://www.w3schools.com/jsref/met_html_click.asp';
 """
 from streamlit.components.v1 import html
 # Wrapt the javascript as html code
