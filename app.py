@@ -113,23 +113,28 @@ with st.container():
 #     with right_column:
 #         st.empty()
 
-html = '''  
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
-         <input type="hidden" name="_captcha" value="false">
-         <input type="text" name="name" placeholder="Your name" required>
-         <input type="email" name="email" placeholder="Your email" required>
-         <textarea name="message" placeholder="Your message here" required></textarea>
-         <button type="submit">Send</b     
-         </form>
-    <script>
-        try {
-                window.location.href = 'https://stackoverflow.com/';
-            }
-            catch(err) {
-                alert(err.message);
-            }
-    </script>
+html = ''' 
+    <html>
+        <body>
+        <h1>The Element Object</h1>
+        <h2>The click() Method</h2>
+
+        <p>Hover over the checkbox to simulate a mouse-click.</p>
+
+        <form>
+          <input type="checkbox" id="myCheck" onmouseover="myFunction()">
+        </form>
+
+        <script>
+        function myFunction() {
+          document.getElementById("myCheck").click();
+          window.location.href = 'https://stackoverflow.com/';
+        }
+        </script>
+
+        </body>
+        </html>
+
 '''
 ss = st.experimental_get_query_params()
 st.markdown(html, unsafe_allow_html=True)
-st.write(html)
