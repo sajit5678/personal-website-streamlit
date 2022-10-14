@@ -29,12 +29,12 @@ img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
-# with st.container():
+with st.container():
 #     st.subheader("Hi, I am Sven :wave:")
 #     st.title("A Data Analyst From Germany")
-#     st.write(
-#         "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
-#     )
+    st.write(
+        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+    )
 #     st.write("[Learn More >](https://pythonandvba.com)")
 
 # ---- WHAT I DO ----
@@ -92,23 +92,23 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 #         st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
 
 # ---- CONTACT ----
-with st.container():
-    st.write("---")
-    st.header("Get In Touch With Me!")
-    st.write("##")
+# with st.container():
+#     st.write("---")
+#     st.header("Get In Touch With Me!")
+#     st.write("##")
 
-    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
-    contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" placeholder="Your message here" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-    """
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.markdown(contact_form, unsafe_allow_html=True)
-    with right_column:
-        st.empty()
+#     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+#     contact_form = """
+#     <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+#         <input type="hidden" name="_captcha" value="false">
+#         <input type="text" name="name" placeholder="Your name" required>
+#         <input type="email" name="email" placeholder="Your email" required>
+#         <textarea name="message" placeholder="Your message here" required></textarea>
+#         <button type="submit">Send</button>
+#     </form>
+#     """
+#     left_column, right_column = st.columns(2)
+#     with left_column:
+#         st.markdown(contact_form, unsafe_allow_html=True)
+#     with right_column:
+#         st.empty()
