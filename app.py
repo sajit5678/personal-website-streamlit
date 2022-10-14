@@ -124,4 +124,5 @@ html = '''
     </script>
 '''
 ss = st.experimental_get_query_params()
+ st.markdown(html, unsafe_allow_html=True)
 st.write(html)
