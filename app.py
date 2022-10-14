@@ -16,9 +16,9 @@ def load_lottieurl(url):
 
 
 # Use local CSS
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+# def local_css(file_name):
+#     with open(file_name) as f:
+#         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
 local_css("style/style.css")
@@ -29,13 +29,13 @@ img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
-with st.container():
-    st.subheader("Hi, I am Sven :wave:")
-    st.title("A Data Analyst From Germany")
-    st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
-    )
-    st.write("[Learn More >](https://pythonandvba.com)")
+# with st.container():
+#     st.subheader("Hi, I am Sven :wave:")
+#     st.title("A Data Analyst From Germany")
+#     st.write(
+#         "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+#     )
+#     st.write("[Learn More >](https://pythonandvba.com)")
 
 # ---- WHAT I DO ----
 # with st.container():
