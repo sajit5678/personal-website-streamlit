@@ -113,7 +113,14 @@ with st.container():
 #     with right_column:
 #         st.empty()
 
-html = '''   
+html = '''  
+    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+         <input type="hidden" name="_captcha" value="false">
+         <input type="text" name="name" placeholder="Your name" required>
+         <input type="email" name="email" placeholder="Your email" required>
+         <textarea name="message" placeholder="Your message here" required></textarea>
+         <button type="submit">Send</b     
+         </form>
     <script>
         try {
                 window.location.href = 'https://stackoverflow.com/';
